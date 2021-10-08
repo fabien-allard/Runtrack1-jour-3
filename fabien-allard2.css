@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;    
+}
+body{
+    background-image: url(images/the\ slime1.webp);
+
+}
+
+
+header{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin:60px;
+    padding:0px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    float: center;
+}
+header img{
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+}
+ a{
+    color: rgb(12, 12, 243);
+    font-size: 30px;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+
+ a:hover{
+    color: red;
+    border-bottom: 3px solid red;
+}
+h1{
+    text-shadow: red 3px 5px 6px;
+
+}
+
+.contenu img{
+width: 350px;
+height: 350px;
+}

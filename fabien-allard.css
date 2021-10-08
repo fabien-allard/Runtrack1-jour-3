@@ -1,0 +1,45 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    
+}
+body{
+    background-image: url(images/fond\ ecran.jpg);
+
+}
+
+
+header{
+    height: 50vh;
+    flex-direction: column;
+    margin:25px;
+    padding:0px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    float: center;
+}
+header img{
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+}
+ a{
+    color: rgb(12, 12, 209);
+    font-size: 18px;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+
+ a:hover{
+    color: purple;
+    border-bottom: 2px solid purple;
+}
+h1{
+    text-shadow: blue 3px 5px 6px;
+}
+
